@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/edt_client"
+            android:tint="#898989"
+            android:src="@drawable/ic_mode_edit_black_24dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@string/todo"/>
+    <TextView
+            android:id="@+id/clientTxtId"
+            android:text="@string/test_id"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+    />
+    <TextView
+            android:id="@+id/clientTxtName"
+            android:text="@string/test_name"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+    />
+    <TextView
+            android:id="@+id/clientTxtAddress"
+            android:text="@string/test_address"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"/>
+    <ImageView
+            android:id="@+id/dlt_client"
+            android:tint="#898989"
+            android:src="@drawable/ic_delete_black_24dp"
+            android:layout_marginLeft="70dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:contentDescription="@string/todo"
+            android:layout_marginStart="70dp"/>
+
+</LinearLayout>
